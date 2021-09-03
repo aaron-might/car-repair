@@ -10,7 +10,13 @@ body{
 }
 header{
     background-image:url('car-bg.jpg');
+    background-size:cover;
+    background-position: center center;
     color:white;
+    display: flex;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1000px;;
 
-    
 }
